@@ -72,6 +72,8 @@ DB_PASSWORD=your_db_password
 DB_PORT=your_db_port
 ```
 
+For `your_binance_api_key` and `your_binance_api_secret`, you can get it at [Binance](https://www.binance.com/en/binance-api)
+
 ### 5. Running the Project
 
 - To fetch data using REST API:
