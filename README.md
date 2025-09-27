@@ -1,0 +1,1 @@
+## pip install pandas binance-connector dotenv websocket-client psycopg2
