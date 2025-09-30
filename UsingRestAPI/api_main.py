@@ -3,7 +3,7 @@ from UsingRestAPI.load_data import create_table, insert_data
 
 def main():
     print("Fetching data from Binance...")
-    df = get_price(interval="5m", limit=50)
+    df = get_price(interval="1m", limit=60)
     print("Success")
 
     print("Creating table (if not exists)...")

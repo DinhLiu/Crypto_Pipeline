@@ -44,7 +44,7 @@ python -m venv venv
 Install the following Python packages:
 
 ```sh
-pip install python-dotenv requests websockets
+pip install python-dotenv requests websockets pandas binance-connector
 ```
 
 Depending on your database (e.g., PostgreSQL, MySQL), you may also need:

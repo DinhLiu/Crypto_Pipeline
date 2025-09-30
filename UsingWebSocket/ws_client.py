@@ -23,9 +23,10 @@ def on_message(ws, message):
             "volume": kline["v"],
             "close_time": datetime.fromtimestamp(kline["T"] / 1000)
         }])
-        print(df)
-        insert_data(df, symbol)
-        return df  
+        if kline['x']:
+            print(df)
+            insert_data(df, symbol)
+            return df  
 
 def on_error(ws, error):
     print("Error:", error)
